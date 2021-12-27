@@ -1,0 +1,21 @@
+﻿@page "/"
+
+@*<DynamicComponent Type="typeof(SurveyPrompt)" Parameters="parameters"/>*@
+<div>
+    <select @onchange="onChange">
+        <option value="@nameof(CheckBox)">@nameof(CheckBox)</option>
+        <option value="@nameof(TextBox)">@nameof(TextBox)</option>
+    </select>
+</div>
+
+<DynamicComponent Type="tipo"/>
+@code{
+    //IDictionary<string, object> parameters = new Dictionary<string, object>{{"title","my title"}};
+    Type tipo = typeof(CheckBox);
+    string nameSpaceComponentes = "ComponenteDinamico.Shared.";
+    private void onChange(ChangeEventArgs e)
+    {
+        tipo = Type.GetType($"{nameSpaceComponentes}{e.Value.ToString()}");
+
+    }
+}

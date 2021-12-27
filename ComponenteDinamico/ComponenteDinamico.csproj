@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Componente dinámico prueba</Description>
+	  <IsPackable>true</IsPackable>
+	  <PackageProjectUrl>https://github.com/RafaFlock/PruebaPaqueteNuguet.git</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
