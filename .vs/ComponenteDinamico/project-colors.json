@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c9b1aec4-6c89-4e34-9d4b-3e518a31a7aa": {
+      "ProjectGuid": "c9b1aec4-6c89-4e34-9d4b-3e518a31a7aa",
+      "DisplayName": "ComponenteDinamico",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
