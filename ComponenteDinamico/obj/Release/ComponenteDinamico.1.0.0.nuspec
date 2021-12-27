@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ComponenteDinamico</id>
+    <version>1.0.0</version>
+    <authors>ComponenteDinamico</authors>
+    <projectUrl>https://github.com/RafaFlock/PruebaPaqueteNuguet.git</projectUrl>
+    <description>Componente dinámico prueba</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net6.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\bin\Release\net6.0\ComponenteDinamico.runtimeconfig.json" target="lib\net6.0\ComponenteDinamico.runtimeconfig.json" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\bin\Release\net6.0\ComponenteDinamico.dll" target="lib\net6.0\ComponenteDinamico.dll" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\obj\Release\net6.0\staticwebassets\msbuild.ComponenteDinamico.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\obj\Release\net6.0\staticwebassets\msbuild.build.ComponenteDinamico.props" target="build\ComponenteDinamico.props" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.ComponenteDinamico.props" target="buildMultiTargeting\ComponenteDinamico.props" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.ComponenteDinamico.props" target="buildTransitive\ComponenteDinamico.props" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\obj\Release\net6.0\scopedcss\projectbundle\ComponenteDinamico.bundle.scp.css" target="staticwebassets\ComponenteDinamico.bundle.scp.css" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\bootstrap\bootstrap.min.css" target="staticwebassets\css\bootstrap\bootstrap.min.css" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\bootstrap\bootstrap.min.css.map" target="staticwebassets\css\bootstrap\bootstrap.min.css.map" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css" target="staticwebassets\css\open-iconic\font\css\open-iconic-bootstrap.min.css" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\font\fonts\open-iconic.eot" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.eot" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\font\fonts\open-iconic.otf" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.otf" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\font\fonts\open-iconic.svg" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.svg" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.ttf" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\font\fonts\open-iconic.woff" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.woff" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\FONT-LICENSE" target="staticwebassets\css\open-iconic\FONT-LICENSE" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\ICON-LICENSE" target="staticwebassets\css\open-iconic\ICON-LICENSE" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\open-iconic\README.md" target="staticwebassets\css\open-iconic\README.md" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\css\site.css" target="staticwebassets\css\site.css" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\wwwroot\favicon.ico" target="staticwebassets\favicon.ico" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\appsettings.Development.json" target="contentFiles\any\net6.0\appsettings.Development.json" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\ef3274\source\repos\ComponenteDinamico\ComponenteDinamico\appsettings.json" target="contentFiles\any\net6.0\appsettings.json" />
+  </files>
+</package>
